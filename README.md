@@ -1,4 +1,4 @@
-# wordpress-seed
+# WordPress Seed
 WordPress Docker Seed for Shared Development
 
 # Start-up

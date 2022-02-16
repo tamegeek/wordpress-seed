@@ -1,0 +1,45 @@
+{
+    "require": {
+      "vlucas/phpdotenv": "3.*.*",
+      "drupal-composer/preserve-paths": "0.*.*",
+      "wpackagist-plugin/getwid":"1.*.*",
+      "wpackagist-plugin/seo-by-rank-math":"1.*.*.*",
+      "wpackagist-plugin/cms-tree-page-view": "1.*.*",
+      "wpackagist-plugin/contact-form-7": "5.*.*",
+      "wpackagist-plugin/flamingo": "2.*.*",
+      "wpackagist-plugin/theme-check": "*",
+      "wpackagist-plugin/user-activity-log": "1.*.*",
+      "wpackagist-plugin/timber-library": "1.*.*",
+      "wpackagist-plugin/post-types-order": "1.*.*",
+      "wpackagist-plugin/uk-cookie-consent":"3.*.*",
+      "wpackagist-plugin/wp-mail-smtp":"3.*.*",
+      "wpackagist-plugin/litespeed-cache":"4.*.*.*",
+      "wpackagist-plugin/blocks-animation":"1.*.*",
+      "wpackagist-plugin/woocommerce": "6.*.*",
+      "wpackagist-plugin/export-media-with-selected-content":"2.*.*",
+      "wpackagist-plugin/kadence-blocks":"2.*.*",
+      "wpackagist-plugin/ultimate-addons-for-gutenberg":"1.*.*"
+    },
+    "repositories": [
+      {
+        "type": "composer",
+        "url": "https://packages.drupal.org/8"
+      },
+      {
+        "type":"composer",
+        "url":"https://wpackagist.org"
+      }
+    ],
+    "config": {
+      "vendor-dir": "web/vendor",
+        "allow-plugins": {
+            "drupal-composer/preserve-paths": true,
+            "composer/installers": true
+        }
+    },
+    "extra": {
+        "installer-paths": {
+            "web/wp-content/plugins/{$name}/": ["type:wordpress-plugin"]
+        }
+    }
+  }

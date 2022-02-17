@@ -18,7 +18,8 @@
       "wpackagist-plugin/woocommerce": "6.*.*",
       "wpackagist-plugin/export-media-with-selected-content":"2.*.*",
       "wpackagist-plugin/kadence-blocks":"2.*.*",
-      "wpackagist-plugin/ultimate-addons-for-gutenberg":"1.*.*"
+      "wpackagist-plugin/ultimate-addons-for-gutenberg":"1.*.*",
+      "wpackagist-plugin/wordfence":"7.*.*"
     },
     "repositories": [
       {

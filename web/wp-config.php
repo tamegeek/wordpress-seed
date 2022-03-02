@@ -1,4 +1,7 @@
 <?php
+
+require_once(__DIR__ . '/vendor/autoload.php');
+(Dotenv\Dotenv::create(__DIR__))->load();
 /**
  * The base configuration for WordPress
  *

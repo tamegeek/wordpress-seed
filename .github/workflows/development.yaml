@@ -1,4 +1,4 @@
-name: Deployment
+name: Development
 
 on:
   push:
@@ -26,7 +26,7 @@ jobs:
     - name: Deploy to Staging server
       uses: burnett01/rsync-deployments@5.2
       with:
-        switches: -avzr --exclude="data" --exclude=".git" --exclude=".github"
+        switches: -avzr --exclude="data" --exclude=".git" --exclude=".github" --exclude=".gitignore" --exclude="composer.json" --exclude="composer.lock" --exclude="docker-compose.yml" --exclude="LICENSE" --exclude="README.md" --exclude="web/.env.local"
         remote_path: ${{ secrets.DEV_TARGET }}
         remote_host: ${{ secrets.DEV_HOST }}
         remote_port: ${{ secrets.DEV_PORT }}

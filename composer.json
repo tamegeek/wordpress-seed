@@ -14,7 +14,7 @@
       "wpackagist-plugin/uk-cookie-consent":"3.*.*",
       "wpackagist-plugin/wp-mail-smtp":"3.*.*",
       "wpackagist-plugin/litespeed-cache":"4.*.*.*",
-      "wpackagist-plugin/blocks-animation":"1.*.*",
+      "wpackagist-plugin/blocks-animation":"2.*.*",
       "wpackagist-plugin/woocommerce": "6.*.*",
       "wpackagist-plugin/export-media-with-selected-content":"2.*.*",
       "wpackagist-plugin/kadence-blocks":"2.*.*",
